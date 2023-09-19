@@ -17,7 +17,7 @@ public class WechatConfig {
      * 你的微信的密钥
      * appSecret
      */
-    public static final String VxAppSecret = "3dbdafe5fc8b575210b7c3add2156426";
+    public static final String VxAppSecret = "d4f50139e3a2eaa506dcc0a08a4887a2";
 
     public static final List<User> userList = new ArrayList<>();
 
@@ -40,7 +40,7 @@ public class WechatConfig {
         userList.add(getUser(
                 "o15QH6XJYiOYFf9rHbHVFr9LlUOQ", //扫码关注你的测试号以后，测试平台会出现TA的微信号
                 "k2ThIbRETa2BmE9ChBtTIQYacqW3aCMsdenXgrRTm1E", //要给这个人发送的模板ID
-                "kzz", //咋称呼这个人
+                "一二三", //咋称呼这个人
                 "江苏省南京市玄武区", //这个人的详细地址
                 "南京", //这个人在的城市
                 new BirthDay(1999,2,15,true,false,"pt生日快乐！！"),
@@ -51,7 +51,7 @@ public class WechatConfig {
             userList.add(getUser(
                 "o15QH6bvyWg86yZqxlXFhdu3wRRA", //扫码关注你的测试号以后，测试平台会出现TA的微信号
                 "k2ThIbRETa2BmE9ChBtTIQYacqW3aCMsdenXgrRTm1E", //要给这个人发送的模板ID
-                "kzz", //咋称呼这个人
+                "一二三", //咋称呼这个人
                 "江苏省南京市玄武区", //这个人的详细地址
                 "南京", //这个人在的城市
                 new BirthDay(1999,2,15,true,false,"pt生日快乐！！"),
