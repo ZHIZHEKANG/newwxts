@@ -48,9 +48,17 @@ public class WechatConfig {
                 new BirthDay(2020,7,8,true,true),
                 new BirthDay(2020,7,8,true,false,"周年快乐！！！")
         ));
-
-    
-
+            userList.add(getUser(
+                "o15QH6bvyWg86yZqxlXFhdu3wRRA", //扫码关注你的测试号以后，测试平台会出现TA的微信号
+                "k2ThIbRETa2BmE9ChBtTIQYacqW3aCMsdenXgrRTm1E", //要给这个人发送的模板ID
+                "kzz", //咋称呼这个人
+                "江苏省南京市玄武区", //这个人的详细地址
+                "南京", //这个人在的城市
+                new BirthDay(1999,2,15,true,false,"pt生日快乐！！"),
+                new BirthDay(1999,8,11,false,false,"生日快乐哦~~"),
+                new BirthDay(2020,7,8,true,true),
+                new BirthDay(2020,7,8,true,false,"周年快乐！！！")
+        ));
 
     }
 
